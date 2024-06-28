@@ -1,5 +1,5 @@
 # sets base image
-FROM 20alpine3.18
+FROM node:20-alpine3.18
 # directory where any instructions that follow in this file, will be executed relative to
 WORKDIR /app
 # copy from <src> to <dir>
